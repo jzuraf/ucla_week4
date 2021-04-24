@@ -32,9 +32,6 @@ body {
   background-color: #fff;
   background-image: url("../images/background.jpg");
   background: url(../images/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 body {
@@ -133,5 +130,4 @@ p {
   padding: 3px; }
 
 .down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg); }
+  transform: rotate(45deg); }
