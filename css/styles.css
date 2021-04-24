@@ -13,7 +13,7 @@ a:hover {
   text-shadow: none;
   /* Prevent inheritance from `body` */
   background-color: #5628ee;
-  border: .05rem solid #5628ee; }
+  border: .08rem solid #5628ee; }
 
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -124,3 +124,14 @@ p {
   background-color: transparent;
   border-bottom: 5px solid transparent;
   border-bottom-color: transparent; }
+
+/* Down arrow when pressed moves page down to projects */
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px; }
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); }
